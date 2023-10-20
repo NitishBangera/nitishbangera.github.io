@@ -6,23 +6,22 @@ body, h1, h2, p, ul, li {
 
 /* Set background color, text color, and font */
 body {
-    background-color: #f2f2f2;
+    background-color: #f5f5f5;
     color: #333;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 /* Style the header */
 header {
-    background-color: #007BFF;
+    background: #007BFF;
     color: #fff;
     text-align: center;
-    padding: 40px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px 0;
 }
 
 /* Style header content */
 .header-content {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -62,8 +61,54 @@ ul {
 /* Style footer */
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     background-color: #007BFF;
     color: #fff;
     font-size: 14px;
+}
+
+/* Custom styles */
+/* Add a background and padding to each section */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the highlights section with a light blue background */
+#highlights {
+    background-color: #e7f0fd;
+    padding: 20px;
+    border-left: 5px solid #007BFF;
+}
+
+/* Style the education section with a light gray background */
+#education {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-left: 5px solid #777;
+}
+
+/* Style the certifications section with a light yellow background */
+#certifications {
+    background-color: #fff7e2;
+    padding: 20px;
+    border-left: 5px solid #ffbf00;
+}
+
+/* Add a little extra space between list items */
+li {
+    margin-bottom: 5px;
+}
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

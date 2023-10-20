@@ -6,43 +6,51 @@ body, h1, h2, p, ul, li {
 
 /* Set background color, text color, and font */
 body {
-    background-color: #f5f5f5;
+    background-color: #f2f2f2;
     color: #333;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Style the header */
 header {
-    background-color: #333;
+    background-color: #007BFF;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 40px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the main content section */
+/* Style header content */
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+/* Style main content section */
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-}
-
-/* Style headings */
-h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 18px;
-    margin-top: 20px;
 }
 
 /* Style paragraphs */
 p {
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 /* Style lists */
@@ -55,21 +63,7 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: #007BFF;
     color: #fff;
-}
-
-/* Add responsive styles for smaller screens (optional) */
-@media (max-width: 600px) {
-    main {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    h2 {
-        font-size: 16px;
-    }
+    font-size: 14px;
 }
